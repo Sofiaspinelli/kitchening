@@ -24,6 +24,9 @@
     padding: 10px;
     margin: 2px 0;
 }
+.home header ul li:hover {
+    background-color: var(--colorRojoo);
+}
 
 .home header ul li a {
     color: var(--colorBlanco);
@@ -45,6 +48,9 @@
     .home header ul li{
         width: 16%;
         font-size: 0.5rem;
+    }
+    .home header ul li:hover {
+        background-color: var(--colorRojoo);
     }
 }
 @media (min-width:560px) {
